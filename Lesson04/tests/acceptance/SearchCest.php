@@ -2,7 +2,17 @@
 
 class SearchCest{
     //test
+    
+
+
     public function checkSearchByText(AcceptanceTester $I){
+        $searchBottomCSS = '#search-form-btn';
+        $searchBottomXpath = '//*[@id="search-form-btn"]';
+        $searchFieldCSS= '#search-form-field';
+        $searchFieldXpath = '//*[@id="search-form-field"]';
+        $searchArticleCss= 'article';
+        $searchArticleXPath = '//*/article';
+
        $I->amOnPage('');
        $I->seeElement('#search-form-btn');
        $I->click('#search-form-btn');
