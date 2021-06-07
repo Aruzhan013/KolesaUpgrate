@@ -10,8 +10,9 @@ modules:
         - WebDriver:
             #url : https://kolesa.kz/
             #url: https://prostochizh.github.io/form/
-            # урл урока 6 url: http://automationpractice.com/index.php
-            url: https://habr.com/ru/
+            url: http://automationpractice.com/index.php
+            #url: https://habr.com/ru/
+            #url : https://market.kz/
             host: localhost
             port : 9515
             browser: chrome
@@ -19,4 +20,5 @@ modules:
 
         - \Helper\Acceptance
         - \Helper\BaseHelper
+        - Asserts
 step_decorators: ~        

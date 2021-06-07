@@ -11,4 +11,5 @@ modules:
         - PhpBrowser:
             url: https://habr.com/ru/
         - \Helper\Functional
+        - Asserts
     step_decorators: ~        
