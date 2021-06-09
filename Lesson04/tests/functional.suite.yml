@@ -12,4 +12,7 @@ modules:
             url: https://habr.com/ru/
         - \Helper\Functional
         - Asserts
+        - REST:
+           depends: PhpBrowser
+           url: 'http://api.izze.xyz/test/'
     step_decorators: ~        

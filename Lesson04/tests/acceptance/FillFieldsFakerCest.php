@@ -22,6 +22,7 @@ class FillFieldFakerCest{
         $faker = Factory::create('ru_RU');
         $faker->addProvider(new CustomFakerProvider($faker));
 
+
         $name = $faker->firstName;
         $lastnameFaker = $faker->lastName;
         $emailFaker = $faker->email;
